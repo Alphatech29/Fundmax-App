@@ -1,0 +1,47 @@
+ //JOB
+  require("./jobs/job");
+  //Routes
+
+  //AUTH ROUTE
+  app.use("/", authRoute);
+
+  //GENERAL ROUTE
+  app.use("/", generalRoute);
+
+  //USER ROUTE
+  app.use("/user", userRoute);
+
+  //ADMIN ROUTE
+  app.use("/admin", adminRoute);
+
+  //NOTFOUND ROUTE
+  app.use("*", notFoundRoute);
+
+  //Error Middleware
+  app.use(errorMiddleWare);
+
+
+const { homePageGet } = require("../../controllers/general/home");
+const { vtuGet } = require("../../controllers/general/vtu");
+const { jobGet } = require("../../controllers/general/job");
+const { marketGet } = require("../../controllers/general/market");
+const { withdrawGet } = require("../../controllers/general/withdraw");
+const generalRoute = require("express").Router();
+
+//HOMEPAGE
+generalRoute.route("/").get( homePageGet)
+
+//VTUPAGE
+generalRoute.route("/vtu").get( vtuGet)
+
+//VTUPAGE
+generalRoute.route("/job").get( jobGet)
+
+//MARKETPAGE
+generalRoute.route("/market").get( marketGet)
+
+//WITHDRWALPAGE
+generalRoute.route("/withdraw").get( withdrawGet)
+
+
+module.exports = generalRoute

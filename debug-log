@@ -1,0 +1,8 @@
+[2023-08-26T23:03:07.921] [DEBUG] default - {
+  status: 500,
+  message: 'Failed to lookup view "user/pages/addNewUser/add-new-user" in views directory "C:\\Users\\hp\\Desktop\\Mobile App\\views"'
+}
+[2023-08-26T23:03:13.420] [DEBUG] default - {
+  status: 500,
+  message: 'Failed to lookup view "user/pages/addNewUser/add-new-user" in views directory "C:\\Users\\hp\\Desktop\\Mobile App\\views"'
+}
