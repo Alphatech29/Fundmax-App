@@ -2,7 +2,7 @@
 const { userDashboardGet} = require("../../controllers/user/dashboard");
 const { userWithdrawGet} = require("../../controllers/user/withdraw");
 const { userJobGet} = require("../../controllers/user/job");
-const { userMarketGet} = require("../../controllers/user/market");
+const { userShopGet} = require("../../controllers/user/shop");
 const { userVtuGet} = require("../../controllers/user/vtu");
 const { userUpgradeGet} = require("../../controllers/user/upgrade");
 const { userTaskGet} = require("../../controllers/user/task");
@@ -31,10 +31,10 @@ userRoute.route("/task").get(userTaskGet);
 
 
 //MARKET DASHBOARD
-userRoute.route("/market").get(userMarketGet);
+userRoute.route("/market/shop").get(userShopGet);
 
 //ADD NEW PRODUCT
-userRoute.route("/shop/add-new").get(userAddnewGet);
+userRoute.route("/market/shop/add-new-product").get(userAddnewGet);
 
 //ADD NEW USER
 userRoute.route("/add-new-user").get(userAdduserGet);
