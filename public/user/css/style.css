@@ -130,7 +130,7 @@ body {
 }
 
 .AffiliateCard {
-    width          : 380px;
+    width          : 400px;
     height         : auto;
     box-shadow     : 1px 4px 2px rgba(0, 0, 0, 0.25);
     background     : #350D73;
@@ -139,7 +139,7 @@ body {
     align-items    : flex-start;
     gap            : 20px;
     display        : inline-flex;
-    margin-top     : 90px;
+    margin-top     : 75px;
     border-radius  : 15px;
     overflow       : hidden;
 }
@@ -204,11 +204,9 @@ hr {
 }
 
 .QuickAction {
-
-
     margin-top     : 17px;
     display        : flex;
-    width          : 85%;
+    width          : 90%;
     padding        : 3px 10px;
     flex-direction : column;
     justify-content: center;
@@ -295,82 +293,11 @@ hr {
     align-items    : center;
     flex-direction : column;
 }
-
-.ReferralBar {
-    margin-top     : 10px;
-    width          : 87%;
-    padding        : 6px;
-    background     : #350D73;
-    box-shadow     : 1px 1px 2px rgba(0, 0, 0, 0.25) inset;
-    border-radius  : 7px;
-    overflow       : hidden;
-    justify-content: center;
-    align-items    : center;
-    gap            : 10px;
-    display        : inline-flex;
-
-}
-
-.ReferralBar .ReferralLink {
-    color      : white;
-    font-size  : 13px;
-    font-weight: 700;
-    margin-left: -14px;
-
-
-}
-
-.LinkBar {
-    padding        : 3px;
-    background     : white;
-    border-radius  : 5px;
-    overflow       : hidden;
-    justify-content: center;
-    align-items    : center;
-    display        : flex;
-    margin-left    : 5px;
-    margin-right   : 5px;
-}
-
-.link {
-    color      : rgba(53, 13, 115, 0.68);
-    font-size  : 12px;
-    font-style : normal;
-    font-weight: 700;
-    padding    : 2.5px;
-}
-
-.CopyButton {
-    cursor: pointer; 
-    margin-right   : -14px;
-    display        : flex;
-    width          : 20px;
-    height         : 20px;
-    padding        : 1px;
-    justify-content: center;
-    align-items    : center;
-    border-radius  : 5px;
-    background     : #FFF;
-    overflow       : hidden;
-    justify-content: center;
-    align-items    : center;
-}
-
-.BasilCopyOutline {
-    width          : 18px;
-    height         : 18px;
-    flex-direction : column;
-    justify-content: flex-start;
-    align-items    : flex-start;
-    display        : flex;
-}
-
 .Vector23 {
     width      : 20px;
     height     : 20px;
     flex-shrink: 0;
 }
-
 .SummaryBar {
     margin-top     : 15px;
     width          : 100%;
@@ -380,7 +307,6 @@ hr {
     gap            : 40px;
     display        : flex;
 }
-
 .ReferralNumbers {
     width        : 135px;
     height       : 69px;
@@ -389,13 +315,11 @@ hr {
     border-radius: 5px;
     overflow     : hidden;
 }
-
 .Rectangle4 {
     margin-top: 25px;
     width     : 143px;
     height    : 55.30px;
 }
-
 .Frame12560 {
     margin-top     : -70px;
     color          : #FFF;
@@ -408,9 +332,7 @@ hr {
     font-size      : 14px;
     padding-left   : 20px;
     font-weight    : 600;
-
 }
-
 .Payout {
     width        : 134px;
     height       : 69px;
@@ -419,7 +341,6 @@ hr {
     border-radius: 5px;
     overflow     : hidden;
 }
-
 .AdsCards {
     margin-top     : 17px;
     margin-left    : 10px;
@@ -433,7 +354,6 @@ hr {
     align-items    : center;
     display        : inline-flex;
 }
-
 .AdvertBanner {
     display        : flex;
     justify-content: center;
@@ -441,9 +361,7 @@ hr {
     color          : white;
     font-size      : 18px;
     font-weight    : 700;
-
 }
-
 .RecentActivities {
     margin-bottom  : 17px;
     margin-top     : 17px;
@@ -462,7 +380,6 @@ hr {
     gap            : 9px;
     display        : inline-flex;
 }
-
 .Viewmore {
     justify-content: center;
     align-items    : center;
@@ -859,7 +776,7 @@ footer {
     align-items    : center;
     gap            : 12px;
     display        : inline-flex;
-    margin-top     : 80px;
+    margin-top     : 70px;
 }
 
 .JbCard {
@@ -1367,9 +1284,7 @@ footer {
 .BankOfNigeria {
     color        : white;
     font-size    : 16px;
-    position: absolute;
-    right: 0;
-    left: 250px;
+    text-align: end;
 }
 
 .info {
@@ -1379,7 +1294,7 @@ footer {
 }
 
 .groupchip {
-    margin-top: 40px;
+    margin-top: 13px;
     display        : flex;
     align-items    : center;
     justify-content: space-between;

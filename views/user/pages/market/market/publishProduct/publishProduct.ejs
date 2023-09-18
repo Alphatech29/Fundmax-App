@@ -1,10 +1,10 @@
-<%-include("../../../partials/header2")%>
+<%-include("../../../../partials/header2")%>
 
 <div class="cent1">
 
 <div class="addproduct">
     <div class="product-title">
-        <h3>Add New Product</h3>
+        <h3>Publish Products</h3>
         <p>Fill all the product information below.</p>
     </div>
     <div class="product-boady-add">
@@ -16,6 +16,7 @@
               <option value="digital">Digital Product</option>
             </select>
           </div>
+          <!-- Starting Physical Section-->
           <div id="physicalContainer" style="display: none;  width: 100%;">
             <form action="">
                 <div class="product-name">
@@ -65,18 +66,19 @@
                     <span style="padding-bottom: 10px; font-size: 11px;">image format: jpeg,PNG allow</span>
                     <div id="selectedImages" style="padding-left: 15px; font-size: 10px; align-items: flex-start; width: 100%; text-transform: uppercase;"></div>
             </div>
-    
-    
-    
             <button type="submit">Add New Product</button>
             </form>
           </div>
+          <!--End Physical Section-->
 
+
+
+<!--Starting Digital Section-->
           <div id="digitalContainer" style="display: none;  width: 100%;">
             <form action="">
                 <div class="product-name">
-                <label for="">Product Title</label>
-                <input type="text" name="productname" id="productname" placeholder="Enter your Product Name here" required>
+                <label for="">Product Name</label>
+                <input type="text" name="productname" id="productname" placeholder="Enter Product Name here" required>
             </div>
             <div class="product-name sellername">
                 <label for="">Seller Name</label>
@@ -85,36 +87,50 @@
           
           
             <div class="product-name ">
-                <label for="">Price</label>
+                <label for="">Product Price</label>
                 <input type="amount" name="price" id="price" placeholder="₦20,000" required>
             </div>
             <div class="product-name">
-                <label for="">Percentage for Reseller(%)</label>
+                <label for="">Commission for Affiliate(%)</label>
                 <input type="number" name="percentageforreseller" id="percentageforreseller" placeholder="Enter the Percentage You want to give Resell. e.g 50%" required>
+            </div>
+            <div class="product-name">
+                <label for="">URL to Product Sales Page</label>
+                <input type="text" name="salepage" id="salespage" placeholder="Enter URL for Product Sales page" required>
+            </div>
+            <div class="product-name">
+                <label for="">URL to Product Download or Thank you page</label>
+                <input type="text" name="salepage" id="salespage" placeholder="Enter URL for Product Download or Thank you page" required>
+            </div>
+            <div class="product-name">
+                <label for="">URL to JV Page or Marketing Resources</label>
+                <input type="text" name="salepage" id="salespage" placeholder="Enter URL for Product Download or Thank you page" required>
+            </div>
+            <div class="product-name">
+                <label for="">Product details</label>
+                <textarea id="productdesc" rows="10" maxlength="2000" placeholder="Enter your Product Description" required></textarea>
             </div>
     
             <div class="imageUpload1">
-                <label for="imageUpload" class="imageUpload">
+                <label for="imageUpload" class="imageUpload" style="display: flex; justify-content: center; align-items: center; padding-left: 0;">
                     <input type="file" id="imageUpload" name="imageUpload[]" accept=".jpg, .jpeg, .png" multiple class="hidden-input" required>
-                    <ion-icon name="cloud-upload-outline"></ion-icon><span>Upload Your Product Image here.</span></label>
+                    <ion-icon name="cloud-upload-outline"></ion-icon><span>Upload Product Image.</span></label>
                     <span style="padding-bottom: 10px; font-size: 11px;">image format: jpeg,PNG allow</span>
                     <div id="selectedImages" style="padding-left: 15px; font-size: 10px; align-items: flex-start; width: 100%; text-transform: uppercase;"></div>
             </div>
 
-            <button type="submit">Add New Product</button>
+            <button type="submit">Add</button>
             </form>
           </div>
-        
+        <!--End digital Section-->
+
+
        
     </div>
-
 </div>
-
-
-
-
-
-
 </div>
-<%-include("../../../partials/sidebar")%>
-<%-include("../../../partials/footer")%>
+<%-include("./partials/modals")%>
+<script src="/user/js/user/publishProduct/publishProduct.js"></script>
+
+<%-include("../../../../partials/sidebar")%>
+<%-include("../../../../partials/footer")%>

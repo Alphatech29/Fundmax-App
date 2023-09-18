@@ -1,4 +1,3 @@
-
 const showPopupButton = document.getElementById('showPopupButton');
 const amountInput = document.getElementById('amount');
 

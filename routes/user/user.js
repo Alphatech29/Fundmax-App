@@ -6,8 +6,11 @@ const { userShopGet} = require("../../controllers/user/shop");
 const { userVtuGet} = require("../../controllers/user/vtu");
 const { userUpgradeGet} = require("../../controllers/user/upgrade");
 const { userTaskGet} = require("../../controllers/user/task");
-const { userAddnewGet} = require("../../controllers/user/add-product");
+const { userpublishProductGet} = require("../../controllers/user/publishProduct");
+const { userProductVendorGet} = require("../../controllers/user/productVendor");
+const { userSellerGet} = require("../../controllers/user/sellerPortal");
 const { userAdduserGet} = require("../../controllers/user/add-new-user");
+const { userLeaderboardGet} = require("../../controllers/user/leaderBoard");
 const userRoute = require("express").Router();
 
 //<!-----------------DASHBOARD------------------>
@@ -34,10 +37,19 @@ userRoute.route("/task").get(userTaskGet);
 userRoute.route("/market/shop").get(userShopGet);
 
 //ADD NEW PRODUCT
-userRoute.route("/market/shop/add-new-product").get(userAddnewGet);
+userRoute.route("/market/shop/publish-product").get(userpublishProductGet);
+
+//PRODUCT VENDOR
+userRoute.route("/market/shop/vendor").get(userProductVendorGet);
+
+//SELLER PORTAL
+userRoute.route("/market/shop/affiliate").get(userSellerGet);
 
 //ADD NEW USER
 userRoute.route("/add-new-user").get(userAdduserGet);
+
+//LEADERBOARD
+userRoute.route("/leaderboard").get(userLeaderboardGet);
 
 
 
