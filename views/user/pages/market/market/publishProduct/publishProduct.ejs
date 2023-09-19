@@ -20,7 +20,7 @@
           <div id="physicalContainer" style="display: none;  width: 100%;">
             <form action="">
                 <div class="product-name">
-                <label for="">Product Name</label>
+                <label for="">Items Name</label>
                 <input type="text" name="productname" id="productname" placeholder="Enter your Product Name here" required>
             </div>
             <div class="product-name">
@@ -44,6 +44,14 @@
                 <input type="number" name="percentageforreseller" id="percentageforreseller" placeholder="Enter the Percentage You want to give Resell. e.g 50%" required>
             </div>
             <div class="product-name">
+                <label for="">Items Status</label>
+                <select class="proform-select">
+                    <option selected>Select Items Status</option>
+                    <option value="">Brand New</option>
+                    <option value="">Used</option>
+                  </select>
+            </div>
+            <div class="product-name">
                 <label for="">Category</label>
                 <select class="proform-select">
                     <option selected>Select the Category</option>
@@ -55,7 +63,11 @@
                   </select>
             </div>
             <div class="product-name">
-                <label for="">Product details</label>
+                <label for="">Items Specifications</label>
+                <textarea id="productdesc" rows="10" maxlength="2000" placeholder="List out your items Specifications" required></textarea>
+            </div>
+            <div class="product-name">
+                <label for="">Items Description</label>
                 <textarea id="productdesc" rows="10" maxlength="2000" placeholder="Enter your Product Description" required></textarea>
             </div>
     

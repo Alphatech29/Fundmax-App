@@ -1,6 +1,15 @@
 <%-include("../../partials/header2")%>
-
     <div class="cent1">
+
+     <!--Cart Page-->
+     <div class="cartpage">
+        <div class="carticon">
+            <span>0</span>
+            <ion-icon name="cart-outline"></ion-icon>
+        </div>
+    </div>
+    <!--END OF Cart page-->
+
 
         <div class="JobsList" style="margin-top: 70px;">
             <div class="VtuTab2">
@@ -14,6 +23,9 @@
                         <img class="img1" src="/image/444 1.png" width="120" height="90" />
                     </div>
                     <div class="Itermname">Maxi 42" Inches FHD Smart TV (D2010).</div>
+                    <div class="moredetails" onclick="openPopup()">More Details <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                        <path d="M4.375 2.8125H0.9375V9.0625H7.1875V5.625M5.625 1.25H8.75M8.75 1.25V4.375M8.75 1.25L4.375 5.625" stroke="#350D73" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></div>
                     <div class="cart" style="padding-top: 5px;">
                         <div class="itemsprice">₦ 18,000</div>
                         <div class="ByBtn">
@@ -23,7 +35,7 @@
                     <div class="cart" style="padding-top: 5px;">
                         <div class="Resell">Resell and earn 25% commission!</div>
                         <div class="ByBtn1">
-                            <div class="BuyNow1">Resell</div>
+                            <div class="BuyNow1" onclick="togglePopup('resell')">Resell</div>
                         </div>
                     </div>
                     <div class="Loction">
@@ -36,11 +48,15 @@
                         <div class="SellerLocationLagos">Seller Location: Lagos, NG</div>
                     </div>
                 </div>
+
                 <div class="product">
                     <div class="ItemsImg">
                         <img class="img1" src="/image/444 1.png" width="120" height="90" />
                     </div>
                     <div class="Itermname">Maxi 42" Inches FHD Smart TV (D2010).</div>
+                    <div class="moredetails" onclick="openPopup()">More Details <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                        <path d="M4.375 2.8125H0.9375V9.0625H7.1875V5.625M5.625 1.25H8.75M8.75 1.25V4.375M8.75 1.25L4.375 5.625" stroke="#350D73" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></div>
                     <div class="cart" style="padding-top: 5px;">
                         <div class="itemsprice">₦ 18,000</div>
                         <div class="ByBtn">
@@ -50,35 +66,8 @@
                     <div class="cart" style="padding-top: 5px;">
                         <div class="Resell">Resell and earn 25% commission!</div>
                         <div class="ByBtn1">
-                            <div class="BuyNow1">Resell</div>
+                            <div class="BuyNow1" onclick="togglePopup('resell')">Resell</div>
                         </div>
-                    </div>
-                    <div class="Loction">
-                        <div class="Vectorl" style="padding-right: 3px; padding-bottom: 2px;"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7" fill="none">
-                                <path
-                                    d="M2.45 3.325C2.21794 3.325 1.99538 3.23281 1.83128 3.06872C1.66719 2.90462 1.575 2.68206 1.575 2.45C1.575 2.21794 1.66719 1.99538 1.83128 1.83128C1.99538 1.66719 2.21794 1.575 2.45 1.575C2.68206 1.575 2.90462 1.66719 3.06872 1.83128C3.23281 1.99538 3.325 2.21794 3.325 2.45C3.325 2.56491 3.30237 2.67869 3.25839 2.78485C3.21442 2.89101 3.14997 2.98747 3.06872 3.06872C2.98747 3.14997 2.89101 3.21442 2.78485 3.25839C2.67869 3.30237 2.56491 3.325 2.45 3.325ZM2.45 0C1.80022 0 1.17705 0.258124 0.717588 0.717588C0.258124 1.17705 0 1.80022 0 2.45C0 4.2875 2.45 7 2.45 7C2.45 7 4.9 4.2875 4.9 2.45C4.9 1.80022 4.64188 1.17705 4.18241 0.717588C3.72295 0.258124 3.09978 0 2.45 0Z"
-                                    fill="#350D73" fill-opacity="0.8" />
-                            </svg></div>
-                        <div class="SellerLocationLagos">Seller Location: Lagos, NG</div>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="ItemsImg">
-                        <img class="img1" src="/image/444 1.png" width="120" height="90" />
-                    </div>
-                    <div class="Itermname">Maxi 42" Inches FHD Smart TV (D2010).</div>
-                    <div class="cart" style="padding-top: 5px;">
-                        <div class="itemsprice">₦ 18,000</div>
-                        <div class="ByBtn">
-                            <div class="BuyNow">Buy Now</div>
-                        </div>
-                    </div>
-                    <div class="cart" style="padding-top: 5px;">
-                        <div class="Resell">Resell and earn 25% commission!</div>
-                        <button class="ByBtn1">
-                            <div class="BuyNow1">Resell</div>
-                        </button>
                     </div>
                     <div class="Loction">
                         <div class="Vectorl" style="padding-right: 3px; padding-bottom: 2px;"><svg
@@ -92,7 +81,7 @@
                 </div>
             </div>
 
-
+<!--List external section-->
             <div class="Lists" id="external" style="height: 100vh;">
                 <div class="table-content body">
                     <table>
@@ -162,12 +151,17 @@
 
 
                 </div>
-
             </div>
-
-
         </div>
 
+
+         
+
+
+</div>
+
+<%-include("./partials/shopModals")%>
+<%-include("./partials/resellModals")%>
 
         <%-include("../../partials/sidebar")%>
             <%-include("../../partials/footer")%>
