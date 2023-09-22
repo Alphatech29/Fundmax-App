@@ -352,11 +352,9 @@ hr {
     height         : 90px;
     background     : #350D73;
     border-radius  : 10px;
-    overflow       : hidden;
-    flex-direction : column;
-    justify-content: center;
+    justify-content: space-between;
     align-items    : center;
-    display        : inline-flex;
+    display        : flex;
 }
 .AdvertBanner {
     display        : flex;

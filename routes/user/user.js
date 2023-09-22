@@ -11,11 +11,18 @@ const { userProductVendorGet} = require("../../controllers/user/productVendor");
 const { userSellerGet} = require("../../controllers/user/sellerPortal");
 const { userAdduserGet} = require("../../controllers/user/add-new-user");
 const { userLeaderboardGet} = require("../../controllers/user/leaderBoard");
+const { userProfileGet, userSecurityGet} = require("../../controllers/user/settings");
 const userRoute = require("express").Router();
 
 //<!-----------------DASHBOARD------------------>
 //DASHBOARD
 userRoute.route("/dashboard").get(userDashboardGet);
+
+//SETTINGS
+userRoute.route("/setting/profile").get(userProfileGet);
+
+//SECURITY
+userRoute.route("/setting/security").get(userSecurityGet)
 
 //JOB DASHBOARD
 userRoute.route("/job").get(userJobGet);
