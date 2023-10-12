@@ -1,0 +1,91 @@
+[2023-10-10T17:11:47.655] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T17:18:03.898] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T17:33:39.948] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T17:49:14.044] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T17:49:28.838] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T17:50:10.546] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T17:50:55.097] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T18:01:14.434] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T18:01:31.439] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T18:02:23.427] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T18:02:55.007] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T18:03:05.960] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}
+[2023-10-10T18:03:15.247] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include("../../partials/header")%>\n' +
+    '\n' +
+    'Could not find the include file "../../partials/header"'
+}

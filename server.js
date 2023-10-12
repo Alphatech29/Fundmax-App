@@ -5,7 +5,7 @@ const path = require("path");
 const logger = require("./helpers/logger");
 const errorMiddleWare = require("./middleware/errorMiddleware");
 const cookieParser = require("cookie-parser");
-const userRoute = require("./routes/user/user");
+const generalRoute = require("./routes/general/general");
 
 try {
 
@@ -14,25 +14,13 @@ try {
 
   const app = express();
 
-  //Helmet
+//Helmet
 
-  app.use(
-    helmet({
-      contentSecurityPolicy: false,
-    })
-  );
-
-
- 
-
-   //USER ROUTE
-   app.use("/user", userRoute);
-
-
-  
-  //Error Middleware
-  app.use(errorMiddleWare);
-
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+  })
+);
 
   //Hpp Security
   app.use(hpp());
@@ -44,9 +32,20 @@ try {
   app.use(express.json({ limit: "500mb" }));
   app.use(express.urlencoded({ extended: false }));
   app.use(cookieParser(process.env.COOKIE_SECRET));
-  app.use(express.static(path.join(__dirname, 'public')));
+  app.use(express.static(path.join("public")));
 
-  const PORT = process.env.PORT || 5000;
+
+//ROUTES
+
+  //GENERAL ROUTE
+  app.use("/", generalRoute);
+
+  //Error Middleware
+  app.use(errorMiddleWare);
+
+
+
+  const PORT = process.env.PORT || 8000;
 
   app.listen(PORT, () => console.log("Server Successful Connectd to",PORT));
 
