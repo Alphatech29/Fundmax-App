@@ -6,3 +6,4 @@ exports.homePageGet = asyncHandler(async (req, res, next) => {
         title: "Home Page"
     })
 })
+

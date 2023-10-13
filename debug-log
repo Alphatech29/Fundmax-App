@@ -89,3 +89,33 @@
     '\n' +
     'Could not find the include file "../../partials/header"'
 }
+[2023-10-12T18:43:40.575] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include(".. /partials/header")%>\r\n' +
+    '    2| \r\n' +
+    '    3|     <!--Hero Section-->\r\n' +
+    '    4|     <section class="hero">\r\n' +
+    '\n' +
+    'Could not find the include file ".. /partials/header"'
+}
+[2023-10-12T18:43:44.811] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include(".. /partials/header")%>\r\n' +
+    '    2| \r\n' +
+    '    3|     <!--Hero Section-->\r\n' +
+    '    4|     <section class="hero">\r\n' +
+    '\n' +
+    'Could not find the include file ".. /partials/header"'
+}
+[2023-10-12T18:44:08.730] [DEBUG] default - {
+  status: 500,
+  message: 'C:\\Users\\hp\\Desktop\\Fundmax App\\views\\general\\pages\\home.ejs:1\n' +
+    ' >> 1| <%-include(".. /partials/header")%>\r\n' +
+    '    2| \r\n' +
+    '    3|     <!--Hero Section-->\r\n' +
+    '    4|     <section class="hero">\r\n' +
+    '\n' +
+    'Could not find the include file ".. /partials/header"'
+}
