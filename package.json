@@ -17,6 +17,7 @@
     "log4js": "^6.9.1",
     "node.js": "^0.0.1-security",
     "nodemon": "^3.0.1",
+    "nvm": "^0.0.4",
     "path": "^0.12.7",
     "swiper": "^10.3.0",
     "toastify-js": "^1.12.0",
