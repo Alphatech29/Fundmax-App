@@ -419,7 +419,7 @@ section.saving .container{
     border-radius: 20px;
     overflow: hidden;
     width: 60%;
-    height: 80vh;
+    height: 78vh;
     padding-bottom: 20px;
     position: relative;
 }
@@ -496,6 +496,7 @@ footer{
     justify-content: center;
     align-items: center;
    color: var(--fundmax-2);
+   margin-left: -40px;
    gap: 40px;
 }
 .footer-container .footer-body .footer-cont{
@@ -552,6 +553,7 @@ footer{
 
  footer .footer-content{
     margin-top: 40px;
+    margin-left: -40px;
     text-align: center;
     color: #c9c8c8;
  }
@@ -559,6 +561,8 @@ footer{
   border-bottom: #fff 0.50px dashed;
   border-top: #fff 0.50px dashed;
   padding: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
   font-size: 10px;
   line-height: 14px;
  }
