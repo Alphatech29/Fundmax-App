@@ -4,6 +4,66 @@
         width : 150px;
         height: 40%;
     }
+    header .nav-container {
+        width: 100%;
+        background-color: var(--fundmax);
+        padding: 10px 10px 1px 10px;
+        margin-left: -7px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: #fff 0.7px solid;
+    }
+    header .nav-container .nav-menu ul {
+        align-items: center;
+        font-size: 15px;
+      
+    }
+    .nav-toggler{
+    	display: flex;
+        margin-bottom: 5px;
+    }
+    header .nav-menu{
+    	position: absolute;
+    	left:0;
+    	top:100%;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+    	background-color: #292ba7;
+    	border-top: 1px solid rgba(255,255,255,0.2);
+    	opacity:0;
+    	visibility: hidden;
+    }
+    header .nav-menu ul{
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        
+    }
+    header .nav-menu ul li{
+    	display: block;
+    	margin:0;
+    }
+    header #nav-check:checked ~ .nav-menu{
+       opacity: 1;
+       visibility: visible;
+    }
+    /* header #nav-check:focus ~ .nav-toggler{
+    	box-shadow: 0 0 15px #000000;
+    } */
+    header #nav-check:checked ~ .nav-toggler span{
+    	background-color: transparent;
+    }
+    header #nav-check:checked ~ .nav-toggler span::before{
+    	top:0;
+    	transform: rotate(45deg);
+    }
+    header #nav-check:checked ~ .nav-toggler span::after{
+    	top:0;
+    	transform: rotate(-45deg);
+    }
     .hero{
         background-color: var(--fundmax);
         overflow: hidden;
@@ -424,3 +484,7 @@
   line-height: 12px;
  }
   }
+  .social a .ri-facebook-circle-fill , .ri-twitter-x-fill , .ri-instagram-fill , .ri-youtube-fill , .ri-tiktok-fill , .ri-whatsapp-fill{
+    font-size: 18px;
+    
+ }
