@@ -6,14 +6,9 @@
     }
     header .nav-container {
         width: 100%;
-        background-color: var(--fundmax);
         padding: 10px 10px 1px 10px;
         margin-left: -7px;
-        overflow: hidden;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: #fff 0.7px solid;
+       
     }
     header .nav-container .nav-menu ul {
         align-items: center;
