@@ -79,6 +79,15 @@
         width: 100%;
         object-fit: cover;
     }
+    .lock-hero {
+        width: 100%;
+        margin: 0;
+      
+    }
+    .lock-hero img{
+        width: 100%;
+        object-fit: cover;
+    }
     .dash img{
         width: 100%;
         object-fit: cover;
