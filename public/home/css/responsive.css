@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-   
+ 
     header .nav-container .nav-logo img {
         width : 150px;
         height: 40%;
@@ -63,6 +63,7 @@
         background-color: var(--fundmax);
         overflow: hidden;
         height: 800px;
+        margin-top: 0px !important;
         
     }
     .hero-mobile{
@@ -487,8 +488,34 @@
   font-size: 6px;
   line-height: 12px;
  }
-  }
+  
   .social a .ri-facebook-circle-fill , .ri-twitter-x-fill , .ri-instagram-fill , .ri-youtube-fill , .ri-tiktok-fill , .ri-whatsapp-fill{
     font-size: 18px;
     
  }
+
+ .contact-us{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding: 40px;
+}
+.contact-us .contact-cent{
+    padding: 0px;
+    width: 100%;
+    gap: 30px;
+}
+.contact-us .contact-cent .contact-head h1{
+    font-size: 30px;
+}
+.contact-us .contact-cent  .sub-head p{
+    font-size: 17px;
+    line-height: 28px;
+    width: 100%;
+}
+
+
+
+
+
+
+}

@@ -116,8 +116,10 @@ header .nav-container #nav-check{
     background-color: var(--fundmax);
     overflow        : hidden;
     height          : 500px;
+    margin-top: 60px;
 
 }
+
 
 .hero .hero-container .hero-body {
     display        : flex;
@@ -567,7 +569,7 @@ section.saving .container .row p {
     border-radius   : 20px;
     overflow        : hidden;
     width           : 60%;
-    height          : 78vh;
+    height          : 430px;
     padding-bottom  : 20px;
     position        : relative;
 }
@@ -729,4 +731,39 @@ footer .footer-content .copyright {
     padding-left : 50px;
     font-size    : 10px;
     line-height  : 14px;
+}
+
+.contact-us{
+    margin-top: 60px;
+    background-color: var(--fundmax);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    color: var(--fundmax-2);
+}
+.contact-us .contact-cent{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 35px;
+}
+.contact-us .contact-cent .contact-head h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.contact-us .contact-cent  .sub-head{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact-us .contact-cent  .sub-head p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    width: 60%;
 }
