@@ -177,8 +177,9 @@ header .nav-container #nav-check {
 
 .hero .hero-container .hero-body .hero-content p {
     padding-top: 20px;
-    line-height: 30px;
-    font-size  : 17px;
+    font-size  : 21px;
+    font-weight: 400;
+    line-height: 33px;
 }
 
 .hero .hero-container .hero-body .hero-content .download {
@@ -921,10 +922,11 @@ footer .footer-content .copyright {
 
 .contact-body {
     width          : 100%;
-    display        : inline-flex;
+    display        : flex;
     justify-content: center;
     align-items    : center;
     padding        : 30px;
+
 }
 
 .contact-body .contact-content {
@@ -975,3 +977,190 @@ footer .footer-content .copyright {
 .contact-body .contact-content .contact-card p a {
     text-decoration: none;
 }
+
+.contact-soc-bdy {
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    padding        : 30px;
+}
+
+.contact-soc-bdy .contact-social {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-direction  : column;
+    gap             : 30px;
+    width           : 65%;
+    margin-right    : 40px;
+    padding-left    : 70px;
+    padding-right   : 70px;
+    padding-top     : 40px;
+    padding-bottom  : 40px;
+    background-color: #0731bd27;
+    border-radius   : 10px;
+
+}
+
+.contact-soc-bdy .contact-social h2 {
+    margin        : 0;
+    font-size     : 40px;
+    letter-spacing: -1px;
+    font-weight   : 600;
+    line-height   : 48px;
+    text-align    : center;
+    color         : var(--fundmax);
+}
+
+.contact-soc-bdy .contact-social p {
+    text-align   : center;
+    color        : #6b778c;
+    margin-bottom: 10px;
+    font-size    : 20px;
+    line-height  : 30px;
+    color        : #170069;
+}
+
+.contact-soc-bdy .contact-social .contact-soc-icon {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    gap            : 10px;
+}
+
+.contact-soc-bdy .contact-social .contact-soc-icon img {
+    width: 34px;
+}
+
+.loan {
+    margin-top      : 60px;
+    background-color: var(--fundmax);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    width           : 100%;
+    padding         : 40px;
+    height          : 460px;
+    overflow: hidden;
+    position       : relative;
+}
+
+.loan .loan-container {
+    justify-content: space-between;
+    align-items    : center;
+    display        : flex;
+    width          : 100%;
+    margin-right   : 60px;
+    padding-right  : 60px;
+    padding-left   : 20px;
+   
+}
+
+.loan .loan-container .loan-body {
+    display        : flex;
+    justify-content: flex-start;
+    align-items    : flex-start;
+    flex-direction : column;
+    width          : 50%;
+    max-width      : 50%;
+    color          : var(--fundmax-2);
+}
+
+.loan .loan-container .loan-body h1 {
+    font-size  : 3.3rem;
+    line-height: 3.7rem;
+}
+
+.loan .loan-container .loan-body p {
+    padding-top: 20px;
+    font-size  : 21px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.loan .loan-container .loan-body .store-icon {
+    display        : flex;
+    justify-content: flex-start;
+    align-items    : flex-start;
+    gap            : 30px;
+    padding-top    : 40px;
+}
+
+.loan .loan-container .loan-body .store-icon .download-btn {
+    padding: 12px;
+}
+
+.loan .loan-container .loan-body .store-icon .download-btn:hover {
+    border: 1px solid #fff;
+}
+
+.loan .loan-container .loan-body .store-icon .download-btn span {
+    padding-left  : 7px;
+    font-size     : 18px;
+    letter-spacing: 1px;
+}
+
+.loan .loan-container .loan-body .loan-image {
+    width: 40%;
+}
+ .img{
+    position: absolute;
+    top: 125px;
+    right: 250px;
+}
+.loan-mask{
+    position     : absolute;
+    border-radius: 300px;
+    border       : 40px solid #00055225;
+    width        : 500px;
+    height       : 500px;
+    bottom       : -80px;
+    left         : 650px;
+}
+.loan-features{
+    padding: 40px;
+}
+.loan-features .features-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+.loan-features .features-container .feature-title{
+    text-align: left;
+    letter-spacing: -1px;
+    padding-right: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #07099f;
+}
+.loan-features .features-container .features-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+    padding-top: 30px;
+}
+.loan-features .features-container .features-body .features-card{
+    width:45%;
+    background-color: var(--feature-card);
+    height: 250px;
+    padding: 24px;
+    border-radius: 10px;
+}
+.loan-features .features-container .features-body .features-card ion-icon{
+   font-size: 27px;
+   color: #050f9b;
+}
+.loan-features .features-container .features-body .features-card p{
+   margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #022e68;
+ }

@@ -674,6 +674,145 @@
     .contact-body .contact-content .contact-card {
         width: 100%;
     }
+    .contact-soc-bdy{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-soc-bdy .contact-social{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 38px;
+        width: 100%;
+    }
+    .contact-soc-bdy .contact-social h2 {
+        margin: 0;
+        font-size: 25px;
+        line-height: 38px;
+      
+    }
+    .contact-soc-bdy .contact-social p {
+        margin: 0;
+        font-size: 17px;
+        line-height: 28px;
+      
+    }
+    .contact-soc-bdy .contact-social .contact-soc-icon img{
+        width:25px;
+     }
+
+     .loan {
+        margin-top      : 50px;
+        padding         : 40px;
+        padding-left: 8px;
+        padding-top: 90px;
+        height: 655px;
+      
+    }
+    .loan .loan-container {
+        justify-content: center;
+        flex-direction: column;
+        width          : 100%;
+        margin-right   : 30px;
+        padding-right  : 16px;
+        padding-left   : 10px;
+        padding-top: 60px;
+       
+    }
+    .loan .loan-container .loan-body {
+        width          : 100%;
+        max-width      : 100%;
+        justify-content: center;
+    align-items    : center;
+        
+    }
+    .loan .loan-container .loan-body h1 {
+        text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    width: 100%;
+    }
+    .loan .loan-container .loan-body p {
+        padding-top: 20px;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 33px;
+        text-align: center;
+    }
+    .loan .loan-container .loan-body .store-icon {
+        justify-content: center;
+        align-items    : center;
+        padding-top: 20px;
+    }
+    .loan .loan-container .loan-body .store-icon .download-btn {
+        padding: 8px;
+    }
+    .loan .loan-container .loan-body .store-icon .download-btn span {
+        font-size     : 11.70px;
+    }
+    .loan .loan-container .loan-body .loan-image {
+        width: 100%;
+    
+    }
+     .img{
+        position: static;
+        width: 70%;
+        padding-top: 40px;
+        padding-left: 61px;        
+       
+    }
+    .loan-mask{
+        border       : 40px solid #00055223;
+        width        : 400px;
+        height       : 400px;
+        bottom       : 70px;
+        left         : 60px;
+    }
+
+    .loan-features{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .loan-features .features-container{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .loan-features .features-container .feature-title{
+        padding-right: 0px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .loan-features .features-container .features-body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+        padding-top: 30px;
+    }
+    .loan-features .features-container .features-body .features-card{
+        width:100%;
+        height: 180px;
+        padding: 22px;
+    }
+    .loan-features .features-container .features-body .features-card ion-icon{
+        font-size: 22px;
+     }
+     .loan-features .features-container .features-body .features-card p{
+        margin-top: 23px !important;
+         font-size: 20px;
+         font-weight: 400;
+         line-height: 27px;
+      }
+
+
+
+
+
+
+
 
 
 
