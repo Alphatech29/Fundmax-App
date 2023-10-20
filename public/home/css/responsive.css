@@ -806,9 +806,40 @@
          font-weight: 400;
          line-height: 27px;
       }
-
-
-
+      .loan-wy{
+        padding: 10px;
+     }
+     .loan-wy .wy-contain{
+        padding: 5px;
+     }
+     .loan-wy .wy-contain .wy-title{
+        font-size: 30px;
+        line-height: 20px;
+     }
+     .loan-wy .wy-contain .wy-body{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        padding-top: 25px;
+     }
+     .loan-wy .wy-contain .wy-body .wy-card{
+        width:100%;
+        height: 179px;
+        padding: 20px;
+        gap: 8px;
+        padding-top: 30px;
+     }
+     .loan-wy .wy-contain .wy-body .wy-card .wy-card-body h2{
+        font-size: 22px;
+        line-height: 25px;
+     }
+     .loan-wy .wy-contain .wy-body .wy-card .wy-card-body p{
+        font-size: 17px;
+        line-height: 25px;
+     }
+     .wy-svg img{
+        width: 60PX;
+    }
 
 
 

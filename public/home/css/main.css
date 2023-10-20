@@ -1164,3 +1164,59 @@ footer .footer-content .copyright {
     line-height: 35px;
     color: #022e68;
  }
+ .loan-wy{
+    padding: 50px;
+ }
+ .loan-wy .wy-contain{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+ }
+ .loan-wy .wy-contain .wy-title{
+    text-align: left;
+    letter-spacing: -1px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #07099f;
+ }
+ .loan-wy .wy-contain .wy-body{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-top: 30px;
+ }
+ .loan-wy .wy-contain .wy-body .wy-card{
+    width:40%;
+    height: 150px;
+    padding: 26px;
+    border-radius   : 7px;
+    box-shadow      : 1px 3px 3px 2px rgba(173, 173, 173, 0.13), 1px 3px 3px 2px rgba(173, 173, 173, 0.096) inset;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: columnm o90;
+    gap: 15px;
+    padding-top: 50px;
+ }
+ .loan-wy .wy-contain .wy-body .wy-card .wy-card-body h2{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #0252ca;
+ }
+ .loan-wy .wy-contain .wy-body .wy-card .wy-card-body p{
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--fundmax);
+ }
+.wy-svg img{
+    width: 70PX;
+    filter: hue-rotate(600deg);
+    -webkit-filter: hue-rotate(600deg);
+}
